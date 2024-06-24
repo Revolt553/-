@@ -1,7 +1,7 @@
 class Building:
-    def __init__(self, int, str):
-        self.numbersOfFloor = int
-        self.buildingType = str
+    def __init__(self, numbersOfFloor, buildingType):
+        self.numbersOfFloor = int(numbersOfFloor)
+        self.buildingType = str(buildingType)
 
     def __eq__(self, other):
         return (self.numbersOfFloor == other.numbersOfFloor
